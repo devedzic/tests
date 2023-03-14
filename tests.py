@@ -101,3 +101,7 @@ sum = return_sum(a, b)
 #
 # get_ipython().run_cell_magic('writefile', '-a t1.py', "\n\ndef return_2():\n    '''Another simple function\n    '''\n    \n    return 2\n")
 #
+
+for i in range(1, 9):
+    if not i % 2:
+        print(i)
